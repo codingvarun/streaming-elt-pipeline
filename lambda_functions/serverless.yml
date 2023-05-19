@@ -1,5 +1,5 @@
 configValidationMode: off
-service: ecommerce
+service: ecommerce-de
 
 frameworkVersion: '3'
 
@@ -16,7 +16,7 @@ provider:
     PORT: <database-port>
     DATABASE: <database-name>
 
-  region: ap-southeast-1
+  region: <aws-region>
 
 package:
   patterns:
@@ -30,7 +30,7 @@ functions:
     module: .
     events:
       - eventBridge:
-          name: reard-points-schedule-event
+          name: read-points-schedule-event
           schedule: cron(0 12 * * ? *)
           enabled: true
   ecomm-data-function:
