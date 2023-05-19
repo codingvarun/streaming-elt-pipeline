@@ -1,0 +1,51 @@
+configValidationMode: off
+service: ecommerce
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  lambdaHashingVersion: 20201221
+  iam:
+    role: <lambda-role-arn>
+
+  region: ap-southeast-1
+
+package:
+  patterns:
+    - '!node-module\*'
+  excludeDevDependencies: false
+  individually: true
+
+functions:
+  reward-points-function: 
+    handler: reward_points_function.lambda_handler
+    module: .
+    events:
+      - eventBridge:
+          name: reard-points-schedule-event
+          schedule: cron(0 12 * * ? *)
+          enabled: true
+  ecomm-data-function:
+    handler: ecomm-data-function.lambda_handler
+    module: .
+    events:
+      - stream:
+        type: kinesis
+        arn: <kinesis-stream-arn>
+        batchSize: 500
+        batchWindow: 10
+        bisectBatchOnFunctionError: true
+        maximumRetryAttempts: 3
+        destinations:
+          onFailure: <sqs-dlq-arn>
+
+plugins:
+  - serverless-python-requirements
+  - serverless-plugin-include-dependencies
+  - serverless-plugin-common-excludes
+
+custom:
+  pythonRequirements:
+    dockerizePip: true

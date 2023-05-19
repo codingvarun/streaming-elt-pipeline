@@ -1,0 +1,7 @@
+Output Kafka record value format	JSON
+Output Kafka record key format	    JSON    #makes it easier to extract the key out of metadata
+Provide transaction metadata	    true
+After-state only	                false   #provides you with a lot of metadata which helps you filter out the older logs
+                                            and find out the current state
+
+                                            

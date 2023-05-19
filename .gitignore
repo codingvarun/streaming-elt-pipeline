@@ -1,0 +1,3 @@
+lambda_functions/.serverless/
+lambda_functions/nodemodules/
+lambda_functions/*.json
