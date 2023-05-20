@@ -1,11 +1,11 @@
-commands = ["""CREATE TABLE IF NOT EXISTS CUSTOMERS(customer_id VARCHAR(255) NOT NULL,
+CREATE TABLE IF NOT EXISTS CUSTOMERS(customer_id VARCHAR(255) NOT NULL,
                                     customer_unique_id VARCHAR(255) DEFAULT NULL,
                                     customer_zip_code_prefix INTEGER DEFAULT NULL,
                                     customer_city VARCHAR(255) DEFAULT NULL,
                                     customer_state VARCHAR(5) DEFAULT NULL,
                                     reward_points INTEGER DEFAULT 0,
-                                    PRIMARY KEY(customer_id))""",
-            """CREATE TABLE IF NOT EXISTS PRODUCTS(product_id VARCHAR(255) NOT NULL,
+                                    PRIMARY KEY(customer_id));
+CREATE TABLE IF NOT EXISTS PRODUCTS(product_id VARCHAR(255) NOT NULL,
                                     product_category_name VARCHAR(255) DEFAULT NULL,
                                     product_name_length real DEFAULT NULL,
                                     product_description_length real DEFAULT NULL,
@@ -14,13 +14,13 @@ commands = ["""CREATE TABLE IF NOT EXISTS CUSTOMERS(customer_id VARCHAR(255) NOT
                                     product_length_cm real DEFAULT NULL,
                                     product_height_cm real DEFAULT NULL,
                                     product_width_cm real DEFAULT NULL,
-                                    PRIMARY KEY(product_id))""",
-            """CREATE TABLE IF NOT EXISTS SELLERS(seller_id VARCHAR(255) NOT NULL,
+                                    PRIMARY KEY(product_id));
+CREATE TABLE IF NOT EXISTS SELLERS(seller_id VARCHAR(255) NOT NULL,
                                     seller_zip_code_prefix INTEGER DEFAULT NULL,
                                     seller_city VARCHAR(255) DEFAULT NULL,
-                                    seller_state VARCHAR(5) DEFAULT NULL)
-                                    PRIMARY KEY(seller_id))""",
-            """CREATE TABLE IF NOT EXISTS ORDERS(order_id VARCHAR(255) NOT NULL,
+                                    seller_state VARCHAR(5) DEFAULT NULL
+                                    PRIMARY KEY(seller_id));
+CREATE TABLE IF NOT EXISTS ORDERS(order_id VARCHAR(255) NOT NULL,
                                     customer_id VARCHAR(255) DEFAULT NULL,
                                     order_status VARCHAR(255) DEFAULT NULL,
                                     order_purchase_timestamp TIMESTAMP DEFAULT NULL,
@@ -28,26 +28,26 @@ commands = ["""CREATE TABLE IF NOT EXISTS CUSTOMERS(customer_id VARCHAR(255) NOT
                                     order_delivered_carrier_date TIMESTAMP DEFAULT NULL,
                                     order_delivered_customer_date TIMESTAMP DEFAULT NULL,
                                     order_estimated_delivery_date TIMESTAMP DEFAULT NULL,
-                                    PRIMARY KEY(order_id))""",
-            """CREATE TABLE IF NOT EXISTS REVIEWS(review_id VARCHAR(255) NOT NULL,
+                                    PRIMARY KEY(order_id));
+CREATE TABLE IF NOT EXISTS REVIEWS(review_id VARCHAR(255) NOT NULL,
                                     order_id VARCHAR(255) NOT NULL,
                                     review_score INTEGER DEFAULT NULL,
                                     review_comment_title VARCHAR(255) DEFAULT NULL,
                                     review_comment_message VARCHAR(255) DEFAULT NULL,
                                     review_creation_date TIMESTAMP DEFAULT NULL,
                                     review_answer_timestamp TIMESTAMP DEFAULT NULL,
-                                    PRIMARY KEY(order_id,review_id))""",
-            """CREATE TABLE IF NOT EXISTS PAYMENTS(order_id VARCHAR(255) NOT NULL,
+                                    PRIMARY KEY(order_id,review_id));
+CREATE TABLE IF NOT EXISTS PAYMENTS(order_id VARCHAR(255) NOT NULL,
                                     payment_sequential INTEGER NOT NULL,
                                     payment_type VARCHAR(255) DEFAULT NULL,
                                     payment_installments INTEGER DEFAULT NULL,
                                     payment_value REAL DEFAULT NULL,
-                                    PRIMARY KEY(order_id,payment_sequential))""",
-            """CREATE TABLE IF NOT EXISTS ITEMS(order_id VARCHAR(255) NOT NULL,
+                                    PRIMARY KEY(order_id,payment_sequential));
+CREATE TABLE IF NOT EXISTS ITEMS(order_id VARCHAR(255) NOT NULL,
                                     order_item_id INTEGER NOT NULL,
                                     product_id VARCHAR(255),
                                     seller_id VARCHAR(255),
                                     shipping_limit_date TIMESTAMP,
                                     price REAL,
                                     freight_value REAL,
-                                    PRIMARY KEY(order_id,order_item_id))"""]
+                                    PRIMARY KEY(order_id,order_item_id));
