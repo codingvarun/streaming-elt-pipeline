@@ -13,4 +13,5 @@ To simplify code maintenance, improve modularity, and enhance portability, I use
 Witnessing the smooth flow of data from source to analytics within minutes made all the effort worthwhile.
 Here is the **[blog](https://dzone.com/articles/howto_building-an-enterprise-cdc-solution)** by **[Dario Cazas Pernas](https://github.com/dariocazas)** that help me get started with CDC.
 **You can find the used for this project [here](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)** 
+
 ![alt text](https://github.com/codingvarun/ecommerce-elt-pipeline/blob/main/ecommerce-streaming-elt.jpeg?raw=true)
