@@ -1,0 +1,286 @@
+[
+    {
+        "product_category_name": "beleza_saude",
+        "product_category_name_english": "health_beauty"
+    },
+    {
+        "product_category_name": "informatica_acessorios",
+        "product_category_name_english": "computers_accessories"
+    },
+    {
+        "product_category_name": "automotivo",
+        "product_category_name_english": "auto"
+    },
+    {
+        "product_category_name": "cama_mesa_banho",
+        "product_category_name_english": "bed_bath_table"
+    },
+    {
+        "product_category_name": "moveis_decoracao",
+        "product_category_name_english": "furniture_decor"
+    },
+    {
+        "product_category_name": "esporte_lazer",
+        "product_category_name_english": "sports_leisure"
+    },
+    {
+        "product_category_name": "perfumaria",
+        "product_category_name_english": "perfumery"
+    },
+    {
+        "product_category_name": "utilidades_domesticas",
+        "product_category_name_english": "housewares"
+    },
+    {
+        "product_category_name": "telefonia",
+        "product_category_name_english": "telephony"
+    },
+    {
+        "product_category_name": "relogios_presentes",
+        "product_category_name_english": "watches_gifts"
+    },
+    {
+        "product_category_name": "alimentos_bebidas",
+        "product_category_name_english": "food_drink"
+    },
+    {
+        "product_category_name": "bebes",
+        "product_category_name_english": "baby"
+    },
+    {
+        "product_category_name": "papelaria",
+        "product_category_name_english": "stationery"
+    },
+    {
+        "product_category_name": "tablets_impressao_imagem",
+        "product_category_name_english": "tablets_printing_image"
+    },
+    {
+        "product_category_name": "brinquedos",
+        "product_category_name_english": "toys"
+    },
+    {
+        "product_category_name": "telefonia_fixa",
+        "product_category_name_english": "fixed_telephony"
+    },
+    {
+        "product_category_name": "ferramentas_jardim",
+        "product_category_name_english": "garden_tools"
+    },
+    {
+        "product_category_name": "fashion_bolsas_e_acessorios",
+        "product_category_name_english": "fashion_bags_accessories"
+    },
+    {
+        "product_category_name": "eletroportateis",
+        "product_category_name_english": "small_appliances"
+    },
+    {
+        "product_category_name": "consoles_games",
+        "product_category_name_english": "consoles_games"
+    },
+    {
+        "product_category_name": "audio",
+        "product_category_name_english": "audio"
+    },
+    {
+        "product_category_name": "fashion_calcados",
+        "product_category_name_english": "fashion_shoes"
+    },
+    {
+        "product_category_name": "cool_stuff",
+        "product_category_name_english": "cool_stuff"
+    },
+    {
+        "product_category_name": "malas_acessorios",
+        "product_category_name_english": "luggage_accessories"
+    },
+    {
+        "product_category_name": "climatizacao",
+        "product_category_name_english": "air_conditioning"
+    },
+    {
+        "product_category_name": "construcao_ferramentas_construcao",
+        "product_category_name_english": "construction_tools_construction"
+    },
+    {
+        "product_category_name": "moveis_cozinha_area_de_servico_jantar_e_jardim",
+        "product_category_name_english": "kitchen_dining_laundry_garden_furniture"
+    },
+    {
+        "product_category_name": "construcao_ferramentas_jardim",
+        "product_category_name_english": "costruction_tools_garden"
+    },
+    {
+        "product_category_name": "fashion_roupa_masculina",
+        "product_category_name_english": "fashion_male_clothing"
+    },
+    {
+        "product_category_name": "pet_shop",
+        "product_category_name_english": "pet_shop"
+    },
+    {
+        "product_category_name": "moveis_escritorio",
+        "product_category_name_english": "office_furniture"
+    },
+    {
+        "product_category_name": "market_place",
+        "product_category_name_english": "market_place"
+    },
+    {
+        "product_category_name": "eletronicos",
+        "product_category_name_english": "electronics"
+    },
+    {
+        "product_category_name": "eletrodomesticos",
+        "product_category_name_english": "home_appliances"
+    },
+    {
+        "product_category_name": "artigos_de_festas",
+        "product_category_name_english": "party_supplies"
+    },
+    {
+        "product_category_name": "casa_conforto",
+        "product_category_name_english": "home_confort"
+    },
+    {
+        "product_category_name": "construcao_ferramentas_ferramentas",
+        "product_category_name_english": "costruction_tools_tools"
+    },
+    {
+        "product_category_name": "agro_industria_e_comercio",
+        "product_category_name_english": "agro_industry_and_commerce"
+    },
+    {
+        "product_category_name": "moveis_colchao_e_estofado",
+        "product_category_name_english": "furniture_mattress_and_upholstery"
+    },
+    {
+        "product_category_name": "livros_tecnicos",
+        "product_category_name_english": "books_technical"
+    },
+    {
+        "product_category_name": "casa_construcao",
+        "product_category_name_english": "home_construction"
+    },
+    {
+        "product_category_name": "instrumentos_musicais",
+        "product_category_name_english": "musical_instruments"
+    },
+    {
+        "product_category_name": "moveis_sala",
+        "product_category_name_english": "furniture_living_room"
+    },
+    {
+        "product_category_name": "construcao_ferramentas_iluminacao",
+        "product_category_name_english": "construction_tools_lights"
+    },
+    {
+        "product_category_name": "industria_comercio_e_negocios",
+        "product_category_name_english": "industry_commerce_and_business"
+    },
+    {
+        "product_category_name": "alimentos",
+        "product_category_name_english": "food"
+    },
+    {
+        "product_category_name": "artes",
+        "product_category_name_english": "art"
+    },
+    {
+        "product_category_name": "moveis_quarto",
+        "product_category_name_english": "furniture_bedroom"
+    },
+    {
+        "product_category_name": "livros_interesse_geral",
+        "product_category_name_english": "books_general_interest"
+    },
+    {
+        "product_category_name": "construcao_ferramentas_seguranca",
+        "product_category_name_english": "construction_tools_safety"
+    },
+    {
+        "product_category_name": "fashion_underwear_e_moda_praia",
+        "product_category_name_english": "fashion_underwear_beach"
+    },
+    {
+        "product_category_name": "fashion_esporte",
+        "product_category_name_english": "fashion_sport"
+    },
+    {
+        "product_category_name": "sinalizacao_e_seguranca",
+        "product_category_name_english": "signaling_and_security"
+    },
+    {
+        "product_category_name": "pcs",
+        "product_category_name_english": "computers"
+    },
+    {
+        "product_category_name": "artigos_de_natal",
+        "product_category_name_english": "christmas_supplies"
+    },
+    {
+        "product_category_name": "fashion_roupa_feminina",
+        "product_category_name_english": "fashio_female_clothing"
+    },
+    {
+        "product_category_name": "eletrodomesticos_2",
+        "product_category_name_english": "home_appliances_2"
+    },
+    {
+        "product_category_name": "livros_importados",
+        "product_category_name_english": "books_imported"
+    },
+    {
+        "product_category_name": "bebidas",
+        "product_category_name_english": "drinks"
+    },
+    {
+        "product_category_name": "cine_foto",
+        "product_category_name_english": "cine_photo"
+    },
+    {
+        "product_category_name": "la_cuisine",
+        "product_category_name_english": "la_cuisine"
+    },
+    {
+        "product_category_name": "musica",
+        "product_category_name_english": "music"
+    },
+    {
+        "product_category_name": "casa_conforto_2",
+        "product_category_name_english": "home_comfort_2"
+    },
+    {
+        "product_category_name": "portateis_casa_forno_e_cafe",
+        "product_category_name_english": "small_appliances_home_oven_and_coffee"
+    },
+    {
+        "product_category_name": "cds_dvds_musicais",
+        "product_category_name_english": "cds_dvds_musicals"
+    },
+    {
+        "product_category_name": "dvds_blu_ray",
+        "product_category_name_english": "dvds_blu_ray"
+    },
+    {
+        "product_category_name": "flores",
+        "product_category_name_english": "flowers"
+    },
+    {
+        "product_category_name": "artes_e_artesanato",
+        "product_category_name_english": "arts_and_craftmanship"
+    },
+    {
+        "product_category_name": "fraldas_higiene",
+        "product_category_name_english": "diapers_and_hygiene"
+    },
+    {
+        "product_category_name": "fashion_roupa_infanto_juvenil",
+        "product_category_name_english": "fashion_childrens_clothes"
+    },
+    {
+        "product_category_name": "seguros_e_servicos",
+        "product_category_name_english": "security_and_services"
+    }
+]

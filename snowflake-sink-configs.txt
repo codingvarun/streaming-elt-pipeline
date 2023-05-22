@@ -1,0 +1,11 @@
+Topics to tables mapping:	
+
+ecommerce-db.ecommerce_db.CUSTOMERS:CUSTOMERS_CDC,
+ecommerce-db.ecommerce_db.ORDERS:ORDERS_CDC,
+ecommerce-db.ecommerce_db.SELLERS:SELLERS_CDC,
+ecommerce-db.ecommerce_db.ITEMS:ITEMS_CDC,
+ecommerce-db.ecommerce_db.PRODUCTS:PRODUCTS_CDC,
+ecommerce-db.ecommerce_db.PAYMENTS:PAYMENTS_CDC,
+ecommerce-db.ecommerce_db.REVIEWS:REVIEWS_CDC
+
+Input Kafka record key format:	JSON
